@@ -1,0 +1,5 @@
+<script type="text/javascript">
+$j(document).ready(function() {
+$j( "ul#std_information > li > a[href^='state/stateMA.html?frn=']" ).parent().after($j('<li ><a href="LPS-earlycollege.html?frn=~(studentfrn)">STATE EARLY COLLEGE &tilde;</a></li>'));
+});
+</script>
