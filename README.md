@@ -2,6 +2,17 @@
 
 ## This repository works by...
 
+## Table of Contents
+
+- [Folder Structure](#folder-structure)
+- [What does each file do?](#what-does-each-file-do)
+    - [WEB_ROOT/admin/students](#web_rootadminstudents)
+    - [LPS-earlycollege.html](#lps-earlycollegehtml)
+    - [more2.LPSearlycollege.leftnav.footer.txt](#more2lpsearlycollegeleftnavfootertxt)
+    - [earlycollegePLugin.zip](#earlycollegepluginzip)
+    - [plugin.xml](#pluginxml)
+- [Closing Remarks](#closing-remarks)
+
 ### Folder Structure:
 ```
 📂 WEB_ROOT/
@@ -26,20 +37,20 @@ Specifies the directory within the PowerSchool web server where the plugin files
 (Picture of the web address in the browser, passing in the student's FRN)
 ![alt text](images/image.png)
 
-```html
+<hr/>
 
 📝**LPS-earlycollege.html:** 
 <br/>
 This is the main file that is displayed when the plugin is clicked on in the admin panel. This is the main page of the plugin.
 ![alt text](images/image-2.png)
 
-```html
+<hr/>
 
 📝**more2.LPSearlycollege.leftnav.footer.txt:** 
 <br/>
 This script finds the link to the state page in the student information navigation menu by selecting the anchor tag with an href attribute that starts with 'state/stateMA.html?frn=', and then injects a new link to the early college page immediately after it.
-(This is not the actual file, but a JS version to show the logic PowerSchool uses from the txt file)
 
+(Actual txt file):
 ```txt
 <script type="text/javascript">
 $j(document).ready(function() {
@@ -47,7 +58,7 @@ $j( "ul#std_information > li > a[href^='state/stateMA.html?frn=']" ).parent().af
 });
 </script>
 ```
-
+(Demonstrative JavaScript code of the txt file):
 ```javascript
 <script type="text/javascript">
 $j(document).ready(function() {
@@ -64,9 +75,13 @@ $j(document).ready(function() {
 </script>
 ```
 
+<hr/>
+
 🤐**earlycollegePLugin.zip:** 
 <br/>
 This is the zip file that is uploaded to the admin panel to install the plugin.
+
+<hr/>
 
 📶**plugin.xml:** 
 <br/>
