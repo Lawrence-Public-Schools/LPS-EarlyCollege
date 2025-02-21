@@ -2,17 +2,6 @@
 
 ## This repository works by...
 
-## Table of Contents
-
-- [Folder Structure](#folder-structure)
-- [What does each file do?](#what-does-each-file-do)
-    - [WEB_ROOT/admin/students](#web_rootadminstudents)
-    - [LPS-earlycollege.html](#lps-earlycollegehtml)
-    - [more2.LPSearlycollege.leftnav.footer.txt](#more2lpsearlycollegeleftnavfootertxt)
-    - [earlycollegePLugin.zip](#earlycollegepluginzip)
-    - [plugin.xml](#pluginxml)
-- [Closing Remarks](#closing-remarks)
-
 ### Folder Structure:
 ```
 📂 WEB_ROOT/
