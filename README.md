@@ -20,10 +20,10 @@
 <br/>
 Specifies the directory within the PowerSchool web server where the plugin files should be installed, allowing PowerSchool to correctly reference and display them in the admin panel.
 <br/>
-(Picture of the directory structure in the admin panel)
+*Picture of the directory structure in the admin panel*
 ![alt text](images/image-1.png)
 <br/>
-(Picture of the web address in the browser, passing in the student's FRN)
+*Picture of the web address in the browser, passing in the student's FRN*
 ![alt text](images/image.png)
 
 <hr/>
@@ -31,6 +31,7 @@ Specifies the directory within the PowerSchool web server where the plugin files
 📝**LPS-earlycollege.html:** 
 <br/>
 This is the main file that is displayed when the plugin is clicked on in the admin panel. This is the main page of the plugin.
+<br/>
 ![alt text](images/image-2.png)
 
 <hr/>
@@ -39,7 +40,7 @@ This is the main file that is displayed when the plugin is clicked on in the adm
 <br/>
 This script finds the link to the state page in the student information navigation menu by selecting the anchor tag with an href attribute that starts with 'state/stateMA.html?frn=', and then injects a new link to the early college page immediately after it.
 
-(Actual txt file):
+*Actual txt file:*
 ```txt
 <script type="text/javascript">
 $j(document).ready(function() {
@@ -47,7 +48,7 @@ $j( "ul#std_information > li > a[href^='state/stateMA.html?frn=']" ).parent().af
 });
 </script>
 ```
-(Demonstrative JavaScript code of the txt file):
+*Demonstrative JavaScript code of the txt file:*
 ```javascript
 <script type="text/javascript">
 $j(document).ready(function() {
