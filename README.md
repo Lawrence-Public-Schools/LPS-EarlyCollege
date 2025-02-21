@@ -23,13 +23,15 @@ Specifies the directory within the PowerSchool web server where the plugin files
 (Picture of the directory structure in the admin panel)
 ![alt text](images/image-1.png)
 <br/>
-(Picture of the web address in the browser)
-![alt text](images/image-0.png)
+(Picture of the web address in the browser, passing in the student's FRN)
+![alt text](images/image.png)
+
+```html
 
 📝**LPS-earlycollege.html:** 
 <br/>
 This is the main file that is displayed when the plugin is clicked on in the admin panel. This is the main page of the plugin.
-![alt text](images/image.png)
+![alt text](images/image-2.png)
 
 ```html
 
