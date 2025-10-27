@@ -1,0 +1,14 @@
+{
+	"pages": [
+		{
+			"htmlID": "navlps_sims_ec",
+			"title": "State Early College &tilde;",
+			"version": "24.10.1.2",
+			"contextType": "student",
+			"requiredContext": "student",
+			"sortOrder": 1020,
+			"pageURL": "/admin/students/LPS-earlycollege.html?frn=~(studentfrn)",
+			"parentHTMLID": "navUSA_MAStudent"
+		}
+	]
+}
